@@ -4,8 +4,8 @@
   "description": "Website for Global Ophthalmic Institute",
   "main": "index.html",
   "scripts": {
-    "dev": "python3 -m http.server 3000",
-    "start": "python3 -m http.server 3000",
+    "dev": "http-server . -p 3000",
+    "start": "http-server . -p 3000",
     "build": "mkdir -p dist && cp -r *.html *.css *.js dist/ 2>/dev/null || cp *.html dist/"
   },
   "keywords": [
